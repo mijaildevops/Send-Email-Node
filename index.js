@@ -44,8 +44,8 @@ function SendEmailattachments(attachFiles, ListFiles, EmailDoctor, Paciente){
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: "mijail.test4@gmail.com", // generated ethereal user
-            pass: "58722191", // generated ethereal password
+            user: "tueEmail4@gmail.com", // generated ethereal user
+            pass: "Tupass", // generated ethereal password
         },
         });
     
