@@ -1,0 +1,28 @@
+{
+  "name": "Send-Email-Node",
+  "version": "1.0.0",
+  "description": "Aplicacion con Node y Express para enviar emails con archivos adjuntos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mijaildevops/Send-Email-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mijaildevops/Send-Email-Node/issues"
+  },
+  "homepage": "https://github.com/mijaildevops/Send-Email-Node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
