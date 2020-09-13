@@ -161,10 +161,7 @@ app.post('/SendEmail', cors(), upload.array('file', 5), (req, res) => {
 
 app.listen(3850, () => {
     console.log('Servidor is Running... Port" 3850')
-<<<<<<< HEAD
     console.log('   - 1. Path: /Simple')
     console.log('   - 2. Path: /SendEmail')
 })
-=======
-})
->>>>>>> e2eb9569a21095503b93c19bd02a6ea3112d6443
+
