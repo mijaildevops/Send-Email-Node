@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "b12ea0aa-9e40-44a5-8df1-dd363328453e",
+		"name": "Send-Email-Node-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3500/api/user/SendEmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/DQS/Desktop/JoeBiden.jpg"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/DQS/Downloads/Resplado Descarga 28-08-2020/Dynamic Url.pdf"
+						},
+						{
+							"key": "EmailUser",
+							"value": "Emaidestinatario@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "Username",
+							"value": "User Demo",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3850/SendEmail",
+					"host": [
+						"localhost"
+					],
+					"port": "3850",
+					"path": [
+						"SendEmail"
+					]
+				},
+				"description": "send email"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3500/Simple",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/DQS/Desktop/JoeBiden.jpg"
+						},
+						{
+							"key": "EmailUser",
+							"value": "Emaidestinatario@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "Username",
+							"value": "User Demo",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3850/Simple",
+					"host": [
+						"localhost"
+					],
+					"port": "3850",
+					"path": [
+						"Simple"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
