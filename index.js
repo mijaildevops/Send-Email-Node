@@ -46,9 +46,14 @@ function SendEmailattachments(attachFiles, ListFiles, Destinatario, UserName){
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
+<<<<<<< HEAD
             // recuerde dar permisos en https://myaccount.google.com/u/5/lesssecureapps
             user: "TuEmail@gmail.com", // Usuario de la cuenta para enviar email 
             pass: "TuPassword", // password de la cuenta para enviar email  
+=======
+            user: "tueEmail4@gmail.com", // generated ethereal user
+            pass: "Tupass", // generated ethereal password
+>>>>>>> e2eb9569a21095503b93c19bd02a6ea3112d6443
         },
         });
     
@@ -161,6 +166,10 @@ app.post('/SendEmail', cors(), upload.array('file', 5), (req, res) => {
 
 app.listen(3850, () => {
     console.log('Servidor is Running... Port" 3850')
+<<<<<<< HEAD
     console.log('   - 1. Path: /Simple')
     console.log('   - 2. Path: /SendEmail')
 })
+=======
+})
+>>>>>>> e2eb9569a21095503b93c19bd02a6ea3112d6443
