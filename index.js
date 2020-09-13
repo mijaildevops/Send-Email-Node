@@ -46,14 +46,9 @@ function SendEmailattachments(attachFiles, ListFiles, Destinatario, UserName){
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-<<<<<<< HEAD
             // recuerde dar permisos en https://myaccount.google.com/u/5/lesssecureapps
             user: "TuEmail@gmail.com", // Usuario de la cuenta para enviar email 
             pass: "TuPassword", // password de la cuenta para enviar email  
-=======
-            user: "tueEmail4@gmail.com", // generated ethereal user
-            pass: "Tupass", // generated ethereal password
->>>>>>> e2eb9569a21095503b93c19bd02a6ea3112d6443
         },
         });
     
